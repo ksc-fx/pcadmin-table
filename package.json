@@ -1,6 +1,6 @@
 {
   "name": "pcadmin-table",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "pcadmin,table组件",
   "main": "index.js",
   "scripts": {

@@ -5,11 +5,11 @@
 主要配合[pcadmin](https://github.com/ksc-fx/pcadmin)使用。
 使用方法：
 ```
-npm install pcadmin-button
+npm install pcadmin-table
 ```
 
 ```javascript
-import button from 'pcadmin-button';
+import table from 'pcadmin-table';
 ```
 
 

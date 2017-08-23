@@ -15,7 +15,7 @@ module.exports = {
     rules: [
       {
           test: /\.js$/,
-          exclude: /node_modules\/(?!pcadmin-.*)/,
+          exclude: [new RegExp(`node_modules\\${path.sep}(?!pcadmin-.*)`)],
           loader: 'babel-loader',
       },
       {

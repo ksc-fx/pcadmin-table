@@ -15,20 +15,14 @@ module.exports = {
     rules: [
       {
           test: /\.js$/,
-          exclude: /node_modules/,
+          exclude: /node_modules\/(?!pcadmin-.*)/,
           loader: 'babel-loader',
       },
       {
           test: /\.vue$/,
-          exclude: /node_modules/,
           loader: 'vue-loader',
           options: {
             loaders: utils.cssLoaders(),
-            // loaders: {
-            //   scss: 'vue-style-loader!css-loader!sass-loader', // <style lang="scss">
-            //   sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax', // <style lang="sass">
-            //   less: 'vue-style-loader!css-loader!less-loader' // <style lang="less">
-            // }
           }
       },
     ],

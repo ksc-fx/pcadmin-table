@@ -1,5 +1,5 @@
 <template>
-    <div class="table" __vuec__  :style="{ maxWidth:  divMaxWidth}">
+    <div class="table"  :style="{ maxWidth:  divMaxWidth}">
         <table cellspacing="0" cellpadding="0" border="0">
             <thead class="table-header">
                 <tr>
@@ -29,14 +29,14 @@
         </table> 
     </div>
 </template>
-<style lang="less">
+<style lang="less" scoped>
     @fontColorHead: #3B484C;
     @fontColorBody: #5E6460;
     @fontSize: 15px;
     @lineHeight: 70px;
     @cellPadding: 10px 24px;
 
-    .table[__vuec__] {
+    .table {
         font-size: @fontSize;
         box-shadow: 0px 2px 4px #DCDCDC;
         overflow-x: auto;
